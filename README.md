@@ -36,5 +36,5 @@ dependencies:
   package_name:
     git:
       url: https://github.com/larakreisz/flutter_multi_select.git
-      ref: main
+      ref: master
 ```
