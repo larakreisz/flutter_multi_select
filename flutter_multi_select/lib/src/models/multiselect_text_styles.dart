@@ -66,21 +66,21 @@ class CheckListViewInitialTS extends MultiSelectTextStyles {
   @override
   TextStyle getTextStyle(BuildContext context) {
     final theme = Theme.of(context);
-    final TextStyle style = theme.textTheme.bodyText1!;
+    final TextStyle style = theme.textTheme.bodyLarge!;
     return textStyle ?? style;
   }
 
   @override
   TextStyle getSelectedTextStyle(BuildContext context) {
     final theme = Theme.of(context);
-    final TextStyle style = theme.textTheme.bodyText1!;
+    final TextStyle style = theme.textTheme.bodyLarge!;
     return selectedTextStyle ?? style;
   }
 
   @override
   TextStyle getDisabledTextStyle(BuildContext context) {
     final theme = Theme.of(context);
-    final TextStyle style = theme.textTheme.bodyText1!;
+    final TextStyle style = theme.textTheme.bodyLarge!;
     final Color? color = theme.textTheme.caption!.color;
     return disabledTextStyle ?? style.copyWith(color: color);
   }
